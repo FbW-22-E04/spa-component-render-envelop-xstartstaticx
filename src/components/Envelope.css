@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px solid black;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 2rem auto; */
+}
+
+.img-container {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.img-container img {
+  width: 7rem;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
